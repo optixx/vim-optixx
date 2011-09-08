@@ -1,0 +1,2 @@
+Title: Optixx Colorscheme for Vim 
+Description: Based on xoria256, made NERDTrees color look more integrated
