@@ -41,8 +41,8 @@ let colors_name = "optixx"
 "" General colors
 hi Normal       ctermfg=252 guifg=#d0d0d0 ctermbg=234 guibg=#1c1c1c cterm=none gui=none
 hi CursorColumn                           ctermbg=238 guibg=#444444
-hi Cursor                                 ctermbg=214 guibg=#ffaf00
-hi CursorLine                             ctermbg=238 guibg=#444444
+hi Cursor                   guifg=#ffffff ctermbg=214 guibg=#888888
+hi CursorLine                             ctermbg=238 guibg=#333333
 hi FoldColumn   ctermfg=248 guifg=#a8a8a8 ctermbg=bg  guibg=bg
 hi Folded       ctermfg=255 guifg=#eeeeee ctermbg=60  guibg=#5f5f87
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
@@ -54,8 +54,8 @@ hi PmenuThumb                             ctermbg=252 guibg=#d0d0d0
 hi Search       ctermfg=0   guifg=#000000 ctermbg=149 guibg=#afdf5f
 hi SignColumn   ctermfg=248 guifg=#a8a8a8
 hi SpecialKey   ctermfg=77  guifg=#5fdf5f
-hi StatusLine                             ctermbg=239 guibg=#4e4e4e cterm=bold gui=bold
-hi StatusLineNC                           ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+hi StatusLine               guifg=#ffffff ctermbg=239 guibg=#6e6e6e cterm=bold gui=bold
+hi StatusLineNC             guifg=#5f5f5f ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi TabLine      ctermfg=fg  guifg=fg      ctermbg=242 guibg=#666666 cterm=underline gui=underline
 hi TabLineFill  ctermfg=fg  guifg=fg      ctermbg=242 guibg=#666666 cterm=underline gui=underline
 hi VertSplit    ctermfg=237 guifg=#3a3a3a ctermbg=237 guibg=#3a3a3a cterm=none gui=none
